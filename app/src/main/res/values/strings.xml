@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">刘睿杰2023110420</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="third_activity">Third Activity</string>
+    <string name="input_something">input something</string>
+    <string name="confirm">确定</string>
+</resources>

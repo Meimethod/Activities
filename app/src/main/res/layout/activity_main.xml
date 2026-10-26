@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etSendData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入要传给SecondActivity的数据"/>
+
+    <Button
+        android:id="@+id/btnToSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.跳转SecondActivity【正向传参】"/>
+
+    <Button
+        android:id="@+id/btnToThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.跳转ThirdActivity【返回数据】"/>
+
+    <Button
+        android:id="@+id/btnToForth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.跳转ForthActivity【相机拍照】"/>
+
+    <Button
+        android:id="@+id/btnToStopWatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.跳转StopWatchActivity【秒表预留】"/>
+
+    <TextView
+        android:id="@+id/tvResultBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third返回结果："
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
